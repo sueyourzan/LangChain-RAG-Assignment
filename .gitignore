@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Conda
+.env_conda/
+
+# IDE
+.vscode/
+.idea/
+
+# Chroma vector databases
+chroma_db/
+chroma_db_*/
+
+# Model cache (HuggingFace)
+*.bin
+*.safetensors
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results (generated)
+结果_*.txt
+
+# Jupyter
+.ipynb_checkpoints/
